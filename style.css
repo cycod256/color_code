@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #1e1e2f;
+  
+}
+body {
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 100vh; 
+  transition: 0.5s;
+}
+select:last-child {
+  margin-right: 0;
+}
+select {
+  background: transparent;
+  padding: 5px;
+  background-color: rgba(245, 241, 241, 0.1);
+  font-size: 25px;
+  margin-right: 30px;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+#ecran {
+  font-family: sans-serif, Arial;
+  font-size: 30px;
+  color: white;
+  width: 250px;
+  height: 55px;
+  background-color: rgba(167, 170, 171, 0.1);
+  text-align: center;
+  padding-top: 11px;
+  border-radius: 10px;
+}
+.calculer {
+  background-color: rgb(56, 228, 56);
+  padding: 5px 25px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+}
+.calculer:hover{
+  transform: scale(98%);
+}
+.container {
+  height: auto;
+  width: auto;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 40px;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 20px black;
+  transition: ease 0.7s;
+  
+
+}
+.container:hover{
+  box-shadow: 1px 2px 10px black;
+}
+.Result{
+  display: flex;
+  flex-direction:row;
+  gap: 2em;
+}
+.copy{
+  background:transparent;
+  color:rgb(123, 126, 123);
+  font-size: 15px;
+  border: none;
+  padding:0 0.4em;
+  border-radius: 10px;
+
+}
+.copy:hover{
+  background-color: rgba(245, 241, 241, 0.1);
+}
+/* select option {
+    background-color: #333;
+    color: #fff;
+  } */
+
+option {
+  background-color: #1e1e1e;
+  color: azure;
+  overflow: hidden;
+  scrollbar-color: #1e1e1e;
+}
+
+h1{
+  margin-top: 3rem;
+  color: aliceblue;
+  font-family: sans-serif, Arial;
+  font-size: 3rem;
+  font-weight: 500;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color_code</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    
+  </head>
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <h1>Code de Couleur</h1>
+    <div class="container">
+      <div class="Result">
+        <p id="ecran"></p>
+        <button class="copy" onclick="copyResult()">
+          <i class="fa-solid fa-copy"></i>
+          <p>copier</p>
+        </button>
+      </div>
+
+      <div>
+        <select id="anneau1">
+          <option>Anneau1</option>
+          <option value="0">Noir</option>
+          <option value="1">Marron</option>
+          <option value="2">Rouge</option>
+          <option value="3">Orange</option>
+          <option value="4">Jaune</option>
+          <option value="5">vert</option>
+          <option value="6">bleu</option>
+          <option value="7">violet</option>
+          <option value="8">gris</option>
+          <option value="9">blanch</option>
+        </select>
+        <select id="anneau2">
+          <option>Anneau2</option>
+          <option value="0">Noir</option>
+          <option value="1">Marron</option>
+          <option value="2">Rouge</option>
+          <option value="3">Orange</option>
+          <option value="4">Jaune</option>
+          <option value="5">vert</option>
+          <option value="6">bleu</option>
+          <option value="7">violet</option>
+          <option value="8">gris</option>
+          <option value="9">blanch</option>
+        </select>
+        <select id="anneau3">
+          <option>Multiplicateur</option>
+          <option value="0">Noir</option>
+          <option value="1">Marron</option>
+          <option value="2">Rouge</option>
+          <option value="3">Orange</option>
+          <option value="4">Jaune</option>
+          <option value="5">vert</option>
+          <option value="6">bleu</option>
+          <option value="7">violet</option>
+          <option value="8">gris</option>
+          <option value="9">blanch</option>
+          <option value="-1">Or</option>
+          <option value="-2">Argent</option>
+        </select>
+        <select id="anneau4">
+          <option>Tolerence</option>
+
+          <option value="1">Marron</option>
+          <option value="2">Rouge</option>
+          <option value="0.05">Orange</option>
+          <option value="0.5">vert</option>
+          <option value="0.25">bleu</option>
+          <option value="0.1">violet</option>
+          <option value="5">Or</option>
+          <option value="10">Argent</option>
+        </select>
+      </div>
+
+      <div>
+        <button class="calculer" onclick="calcColors()">calculer</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
